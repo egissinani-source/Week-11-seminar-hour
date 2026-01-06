@@ -1,0 +1,10 @@
+salary=float(input("Enter your salary :"))
+if salary >= 2501:
+    tax_rate= 0.10
+elif salary <= 2500 :
+    tax_rate= 0.15
+elif salary <=1000:
+    tax_rate=0.20
+tax =  salary * tax_rate
+cash = salary - tax
+print("Youre salary is",salary, "of which" ,tax, "is tax, and" ,cash, "is cash ")
